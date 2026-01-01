@@ -78,15 +78,36 @@
         .Produts {
             display: flex;
             justify-content: center;
+            gap: 100px;
         }
         
         .Produts-list {
             display: flex;
-            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            margin: 12px;
+            padding: 30px;
+            gap: 123px;
+        }
+        
+        .Produts-part button {
+            text-align: center;
+            border-radius: 12px;
+            background-color: rgb(172, 150, 25);
+            color: white;
         }
         
         .Produts-part {
-            flex-direction: column;
+            text-align: center;
+        }
+        
+        .material-icons span {
+            color: gold;
+            visibility: hidden;
+        }
+        
+        .part-Review {
+            text-align: center;
         }
         
         @media(max-width: 600px) {
@@ -98,7 +119,12 @@
             }
             .home-page {
                 flex-direction: column;
-                width: 550px;
+            }
+            .home-pagetwo {
+                margin-top: 20px;
+                padding: 15px;
+                text-align: center;
+                width: 200px;
             }
             .part-nav {
                 flex-direction: column;
