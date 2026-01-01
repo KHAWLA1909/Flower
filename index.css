@@ -1,80 +1,111 @@
-@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Limelight&family=Nosifer&family=Poppins:wght@400;700&family=Potta+One&display=swap');
-body {
-    margin: 0%;
-    padding: 0%;
-    font-family: "Poppins", sans-serif;
-}
-
-.part-nav {
-    display: flex;
-    align-items: center;
-}
-
-ul {
-    display: flex;
-    list-style: none;
-    gap: 20px;
-}
-
-.part-nav ul {
-    gap: 23px;
-}
-
-.part-nav a {
-    text-decoration: none;
-}
-
-.material-symbols-outlined {
-    display: flex;
-}
-
-.one-Flower {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-section {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.home-page h4 {
-    color: pink;
-}
-
-.home-page {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-image: url('img/Home-page.jpeg');
-}
-
-.home-page button {
-    border-radius: 17px;
-    color: white;
-    background-color: brown;
-}
-
-.home-page h1 {
-    color: rgb(90, 90, 160);
-}
-
-@media(max-width:600) {
-    .one-Flower {
-        flex-direction: column;
-    }
-    section {
-        flex-direction: column;
-    }
-    .home-page {
-        flex-direction: column;
-    }
-    .part-nav {
-        flex-direction: column;
-    }
-    ul {
-        flex-direction: column;
-    }
-}
+        @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Limelight&family=Nosifer&family=Poppins:wght@400;700&family=Potta+One&display=swap');
+        body {
+            margin: 0%;
+            padding: 0%;
+            font-family: "Poppins", sans-serif;
+        }
+        
+        .part-nav {
+            display: flex;
+            align-items: center;
+        }
+        
+        ul {
+            display: flex;
+            list-style: none;
+            gap: 20px;
+        }
+        
+        .part-nav ul {
+            gap: 23px;
+        }
+        
+        .part-nav a {
+            text-decoration: none;
+        }
+        
+        .material-symbols-outlined {
+            display: flex;
+        }
+        
+        .one-Flower {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: rgb(132, 121, 121);
+        }
+        
+        section {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        
+        .home-page h4 {
+            color: palevioletred;
+        }
+        
+        .home-page {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-image: url('img/Home-page.jpeg');
+        }
+        
+        .home-page button {
+            border-radius: 17px;
+            color: white;
+            background-color: brown;
+            width: 100px;
+        }
+        
+        .home-page h1 {
+            color: rgb(90, 90, 160);
+        }
+        
+        .home-pagetwo {
+            margin-top: 25px;
+            padding: 15px;
+        }
+        
+        .About {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 12px;
+        }
+        
+        .Produts {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .Produts-list {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .Produts-part {
+            flex-direction: column;
+        }
+        
+        @media(max-width: 600px) {
+            .one-Flower {
+                flex-direction: column;
+            }
+            section {
+                flex-direction: column;
+            }
+            .home-page {
+                flex-direction: column;
+            }
+            .part-nav {
+                flex-direction: column;
+            }
+            ul {
+                flex-direction: column;
+            }
+            .About {
+                flex-direction: column;
+            }
+        }
