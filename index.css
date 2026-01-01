@@ -98,6 +98,7 @@
             }
             .home-page {
                 flex-direction: column;
+                width: 550px;
             }
             .part-nav {
                 flex-direction: column;
