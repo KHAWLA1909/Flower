@@ -1,6 +1,8 @@
         @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Limelight&family=Nosifer&family=Poppins:wght@400;700&family=Potta+One&display=swap');
         body {
             font-family: "Poppins", sans-serif;
+            padding: 0;
+            margin: 0;
         }
         
         .part-nav {
@@ -104,10 +106,22 @@
             visibility: hidden;
         }
         
-        .contentme {}
-        
         .part-Review {
             text-align: center;
+        }
+        
+        .contentme {
+            text-align: center;
+            width: 500px;
+        }
+        
+        .contentme button {
+            text-align: center;
+            width: 200px;
+        }
+        
+        .part-content {
+            padding: 12px;
         }
         
         @media(max-width: 600px) {
@@ -134,5 +148,8 @@
             }
             .About {
                 flex-direction: column;
+            }
+            .contentme {
+                text-align: center;
             }
         }
